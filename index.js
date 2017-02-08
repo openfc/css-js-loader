@@ -12,7 +12,7 @@ module.exports.pitch = function(remainingRequest) {
   return [
     "// css-js-loader: transforms styles from css-loader to a literal object",
     "",
-    "var nativeCSS = require('" + loaderUtils.stringifyRequest(this, "!!" + nativeCssPath) + "');",
+    "var nativeCSS = require(" + loaderUtils.stringifyRequest(this, "!!" + nativeCssPath) + ");",
     "var styles = {};",
     "// Get the styles",
     "var content = require(" + loaderUtils.stringifyRequest(this, "!!" + remainingRequest) + ");",
