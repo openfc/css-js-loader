@@ -1,0 +1,31 @@
+{
+  "name": "css-js-loader",
+  "version": "0.0.1",
+  "description": "Webpack loader to convert the output of the css-loader to javascipt literal object",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:openfc/css-js-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "css-loader",
+    "css-in-js"
+  ],
+  "author": "Merigo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openfc/css-js-loader/issues"
+  },
+  "homepage": "https://github.com/openfc/css-js-loader#readme",
+  "devDependencies": {
+    "loader-utils": "^0.2.16"
+  },
+  "peerDependencies": {
+    "css-loader": "^0.26.1"
+  },
+  "dependencies": {
+    "css": "^2.2.0"
+  }
+}
